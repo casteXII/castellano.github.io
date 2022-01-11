@@ -1,0 +1,27 @@
+.estilohamilton{
+    color:rgb(96, 19, 168);
+    font-style: oblique;    
+}
+.estilomichael{
+    color: crimson;
+    font-style: italic;
+}
+.h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:red;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px darkred;
+}
+.h2{
+    color:darkred;
+    text-shadow: 1px 0px darkred;
+}
+.cuerpo{
+    background-color: rgb(250, 203, 203);
+    font: 100% sans-serif;
+}
+.tt{
+    font: 150px;
+}
