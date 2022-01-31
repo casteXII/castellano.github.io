@@ -1,27 +1,55 @@
-.estilohamilton{
-    color:rgb(96, 19, 168);
-    font-style: oblique;    
+.foto{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(120deg, rgb(155, 220, 255), rgb(255, 124, 216));
+    border-style: inset;
 }
-.estilomichael{
-    color: crimson;
-    font-style: italic;
+.texto{
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+    right: 50px;
+    font-family:'Courier New', Courier, monospace;
 }
-.h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:red;
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 3px 3px darkred;
+.contenido{
+    position: absolute;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 55%;
+    height: 50%;
+    overflow: scroll;
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
 }
-.h2{
-    color:darkred;
-    text-shadow: 1px 0px darkred;
+.bloquederecha{
+    position: absolute;
+    text-align: left;
+    margin-left: 100px;
+    left: 1103px;
+    margin-right: 100px;
+    width: 30%;
+    height: 50%;
+    overflow: scroll;
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
 }
-.cuerpo{
-    background-color: rgb(250, 203, 203);
-    font: 100% sans-serif;
+h3{
+    text-align: center;
+    background: linear-gradient(120deg, rgb(155, 240, 255), rgb(255, 124, 216));
 }
-.tt{
-    font: 150px;
+h2{
+    text-align: center;
+    background: linear-gradient(120deg, rgb(155, 240, 255), rgb(255, 124, 216));
+}
+.pie{
+    display: block;
+    text-align: center;
+    background: linear-gradient(120deg, rgba(155, 240, 255, 0.5), rgb(255, 124, 216,0.5));
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 600px;
+}
+p{
+    font-size: large;
 }
